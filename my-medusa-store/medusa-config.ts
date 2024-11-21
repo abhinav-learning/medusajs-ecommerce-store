@@ -14,7 +14,15 @@ module.exports = defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     }
   },
-  modules: [{
-    resolve: "./src/modules/hello",
-  }]
+  modules: [
+    {
+      resolve: "@medusajs/event-bus-redis",
+      options: {
+        redisUrl: process.env.REDIS_URL,
+      },
+      key: "event-bus-redis"
+    },
+    {
+      resolve: "./src/modules/hello",
+    }]
 })
