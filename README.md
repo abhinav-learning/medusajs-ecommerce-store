@@ -37,6 +37,7 @@ A brief description of your Next.js project and its purpose. Explain what proble
 ## Getting Started
 
 ### Prerequisites
+- Start the Datasources as per the instructions [here](https://github.com/abhinav-learning/medusajs-datasource-setup)
 
 Make sure you have the following installed on your local machine:
 
@@ -50,3 +51,10 @@ To install the project, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/project-name.git
+   ```
+
+
+## Web links
+
+* [MedusaJS Website](https://medusajs.com/)
+* [MedusaJS Setup Guide](https://docs.medusajs.com/create-medusa-app)
